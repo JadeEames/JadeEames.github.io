@@ -1,0 +1,43 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  --bs-primary: #5c5252;
+  --bs-primary-rgb: 92,82,82;
+  --bs-info: #d45869;
+  --bs-info-rgb: 212,88,105;
+  --bs-dark: #4f6584;
+  --bs-dark-rgb: 79,101,132;
+  --bs-secondary: #ff6c47;
+  --bs-secondary-rgb: 255,108,71;
+  --bs-body-color: var(--bs-white);
+  --bs-body-bg: var(--bs-primary);
+}
+
+.container {
+  height: 100%;
+  max-width: 950px;
+}
+
+.projects {
+  --bs-gutter-y: 1.5rem;
+}
+
+#HeaderSection {
+  width: 100%;
+  height: 80vh;
+  background: url("../../assets/img/code.png") top left / cover no-repeat;
+}
+
+#Intro {
+}
+
+#Title {
+}
+
+#ProjectTile {
+  text-decoration: none;
+}
+
+#AboutDiv {
+  background-color: var(--bs-info);
+}
+
